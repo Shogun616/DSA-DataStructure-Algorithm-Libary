@@ -34,6 +34,9 @@
     <Compile Include="node.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="sort.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="test_add_empty.py">
       <SubType>Code</SubType>
     </Compile>
