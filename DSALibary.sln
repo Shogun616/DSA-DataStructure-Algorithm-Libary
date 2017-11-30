@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2009
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DSALibary", "DSALibary\DSALibary.pyproj", "{0A9C67EA-3F34-4B02-819C-2E2F2BE751AD}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DSALibary", "DSALibary.pyproj", "{0A9C67EA-3F34-4B02-819C-2E2F2BE751AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +18,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BC5F3BD0-B7AD-4817-A327-C3895C82BE0D}
+		SolutionGuid = {9E3AD229-DDB4-4611-B1BB-96A302FAA092}
 	EndGlobalSection
 EndGlobal
