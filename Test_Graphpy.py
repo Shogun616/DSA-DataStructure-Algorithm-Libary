@@ -6,9 +6,7 @@ class Test_Graph_isEmpty(unittest.TestCase):
     def test_empty_graph( self ):
         Grh = Graph()
         self.assertEqual( Grh.isEmpty(), True )
-
-   
-
+        
 class Test_Graph_Size(unittest.TestCase):
     def test_empty_graph( self ):
         Grh = Graph()
@@ -55,7 +53,3 @@ class test_empty_areNeighbours(unittest.TestCase):
         Grh.addEdge(28,44)
         Grh.addEdge(11,28)
         self.assertEqual( Grh.areNeighbours(11,44), False)
-
-
-
-
