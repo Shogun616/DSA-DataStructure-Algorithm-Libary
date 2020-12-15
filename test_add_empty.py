@@ -18,8 +18,3 @@ class Test_LinkedList_Add(unittest.TestCase):
         ll.add( 50 )
         ll.add( 100 )
         self.assertEqual( ll.size(), 2 )
-
-
-    
-
-
