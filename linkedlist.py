@@ -28,12 +28,10 @@ class LinkedList:
         newnode.setNext(self.head)
         self.head = newnode
 
-
     def insert(self, value, after_node):
         newnode = Node(value)
         newnode.setNext( after_node.getNext() )
         after_node.setNext( newnode )
-
 
     def size(self):
         current = self.head
@@ -43,7 +41,6 @@ class LinkedList:
             current = current.getNext()
         return sz
 
-
     def search(self, v):
         current = self.head
         while current != None:
@@ -51,7 +48,6 @@ class LinkedList:
                 return current
             current = current.getNext()
             return None
-
 
     def remove(self, node):
         if self.head == node:
@@ -66,13 +62,11 @@ class LinkedList:
                 return 
             current = current.__get.Next()
 
-
     def print(self):
         current = self.head
         while current != None:
             print( current.getValue() )
             current = current.getNext()
-
 
     def reverse(self):
         current = self.hand
@@ -84,7 +78,6 @@ class LinkedList:
             current = next
         self.head = prev
 
-
     def toList(self):
         l = []
         current = self.head
@@ -92,12 +85,3 @@ class LinkedList:
             l.append( current.getValue() )
             current = current.getNext ()
             return l
-
-
-     
-
-
-
-
-
-
