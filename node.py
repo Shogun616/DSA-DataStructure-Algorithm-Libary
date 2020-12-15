@@ -46,14 +46,12 @@ class LinkedList:
             # head = None...
             self.head = newnode
 
-
     def insertAfterValue(self, data, after_value):
         after_node = self.search( after_value )
         assert( after_node != None )
         newnode = Node(data)                    # Steg 1
         newnode.setNext( after_node.getNext() ) # Steg 2
         after_node.setNext( newnode )           # Steg 3
-
 
     def size(self):
         current = self.head
@@ -110,7 +108,6 @@ class LinkedList:
             current = next
         self.head = prev
 
-
 def pre_order_walk( root ):
     visit( root )
     pre_order_walk( root.left )
@@ -125,8 +122,3 @@ def post_order_walk( root ):
     pre_order_walk( root.left )
     pre_order_walk( root.right )
 visit( root )
-
-
-    
-
-
