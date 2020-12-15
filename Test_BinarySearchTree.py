@@ -61,6 +61,3 @@ class Test_BinarySearchTree_toList(unittest.TestCase):
         BST.insert(10)
         BST.insert(99)
         self.assertEqual(BST.toList(), [10,72,99])
-  
-
-
