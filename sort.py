@@ -1,5 +1,3 @@
-
-
 class bubbleSort:
     
  def bubbleSort( alist ):
@@ -11,7 +9,6 @@ class bubbleSort:
                alist[i] = alist[i+1]
                alist[i+1] =  temp
 
- 
 class insertionSort:
 
  def insertionSort( alist ):
@@ -25,7 +22,6 @@ class insertionSort:
              position = position - 1
 
          alist[position] = currentvalue
-
 
 class selectionSort:
 
@@ -86,7 +82,6 @@ class heapSort:
             array[i], array[0] = array[0], array[i]
             heapSort.heapify(array, i, 0)
 
-
 class mergeSort:
 
  def merge(array, l, m, r):
@@ -102,11 +97,9 @@ class mergeSort:
      for i in range(0, n2):
          R[j] = array[m + 1 + j]
 
-
      i = 0
      j = 0
      k = l
-
 
      while i < n1 and j < n2:
          if L[i] <= R[j]:
@@ -136,7 +129,6 @@ class mergeSort:
         mergeSort.merge(array, m + 1, r)
         mergeSort.merge(array, l, m, r)
 
-
 class quickSort:
 
     def partition(arr,low,high):
@@ -161,20 +153,6 @@ class quickSort:
         if low < high:
             
            pi = partition(arr,low,high)
- 
-       
+        
            quickSort(arr, low, pi-1)
            quickSort(arr, pi+1, high)
-
-    
-
-
-
-
-
-  
-
-
-
-    
- 
