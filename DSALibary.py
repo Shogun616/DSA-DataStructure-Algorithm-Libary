@@ -11,17 +11,11 @@
 
 #from Test_Graphpy import *
 
-
-
-
 #ll = LinkedList()
 
 #print(ll.isEmpty() )
 
-
-
 #BST = BinarySearchTree()
-
 
 #BST.insert(5)
 #BST.insert(9)
@@ -33,8 +27,6 @@
 #BST.insert(72)
 #BST.insert(88)
 #BST.insert(99)
-
-
 
 #print(BST.find(5).getData() )
 
@@ -104,8 +96,6 @@
 # Should be:
 #  (['STHLM', 'LINK', 'JONK', 'HELBG', 'LUND'], 170)
 
-
-
 #print(Grh.isEmpty())
 
 #if __name__=='__main__':
@@ -125,11 +115,6 @@ t2 = time.time()
 
 print( "Insertion sort took {:.4f} seconds".format(t2-t1))
 
-
 #mylist = [54,26,93,17,77,31,44,55,20]
 #selectionSort.selectionSort(mylist)
 #print(mylist)
-
-
-
-
