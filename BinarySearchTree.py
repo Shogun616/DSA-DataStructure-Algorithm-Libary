@@ -14,7 +14,6 @@ class BinarySearchTree:
     def isEmpty(self):
         return self._left == self._right == self._data == None
 
-    
     def insert(self, x):
         if self.isEmpty():
             self.setData( x )
@@ -54,7 +53,6 @@ class BinarySearchTree:
             else:
                  return None
       
-
     def size(self):
         sz = 0
         if self._left:
@@ -64,7 +62,6 @@ class BinarySearchTree:
         if self._right:
             sz += self._right.size()
         return sz
-
 
     def toList(self):
         l =[]
@@ -105,20 +102,3 @@ class BinarySearchTree:
             return self._left._findMin(self._left, self)
         else:
             return (parent, self)
-
-        
-    
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
