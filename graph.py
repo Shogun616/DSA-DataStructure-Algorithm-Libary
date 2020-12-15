@@ -36,7 +36,6 @@ class Graph:
                         self._table[v2].remove( (v,w) )
                         break
 
-
     def areNeighbours( self, v1, v2 ):
         if v1 in self._table.keys():
            for (v,w) in self._table[v1]:
@@ -82,7 +81,6 @@ class Graph:
                         return ( [v1] + cheapest_path, cheapest_cost + self.cost( v1, cheapest_path[0]))
                     return (None, 0)
 
-    
     def isConnected( self ):
         for v1 in self._table.keys():
             for v2 in self._table.keys():
